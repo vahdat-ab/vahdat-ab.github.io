@@ -108,6 +108,20 @@
       body {
         background-image: linear-gradient(180deg, var(--bs-secondary-bg), var(--bs-body-bg) 100px, var(--bs-body-bg));
       }
+
+      .publication-image {
+        max-width: 100%;
+        height: auto;
+      }
+
+      @media (max-width: 768px) { /* Adjust the max-width value as needed */
+        .publication-image {
+          display: none;
+        }
+      }
+
+
+
     </style>
 
     <!-- Custom styles for this template -->
@@ -232,7 +246,7 @@
           <div class="list-group list-group-flush">
             <!-- start -->
             <!-- <div class="list-group-item publication list-group-item-action">
-              <img src="https://via.placeholder.com/200x200" alt="Paper Image">
+              <img src="https://via.placeholder.com/200x200" alt="Paper Image" class="publication-image">
               <div>
 
                 <p class="mb-1">
@@ -249,7 +263,7 @@
             <!-- end -->
             <!-- start -->
             <div class="list-group-item publication list-group-item-action">
-              <img src="publications/2023_SOAP--_Cross-Sensor_Domain_Adaptation_for_3D_Object_Detection_Using_Stationary_Object_Aggregation_Pseudo-labelling.png" alt="Paper Image">
+              <img src="publications/2023_SOAP--_Cross-Sensor_Domain_Adaptation_for_3D_Object_Detection_Using_Stationary_Object_Aggregation_Pseudo-labelling.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://openaccess.thecvf.com/content/WACV2024/papers/Huang_SOAP_Cross-Sensor_Domain_Adaptation_for_3D_Object_Detection_Using_Stationary_WACV_2024_paper.pdf" class="text-decoration-none" target="_blank" rel="noopener noreferrer">SOAP: Cross-sensor Domain Adaptation for 3D Object Detection Using Stationary Object Aggregation Pseudo-labelling</a>
@@ -268,7 +282,7 @@
             <!-- end -->      
             <!-- start -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2022_Out-of-Distribution_Detection_for_LiDAR-based_3D_Object_Detection.png" alt="Paper Image" >
+              <img src="publications/2022_Out-of-Distribution_Detection_for_LiDAR-based_3D_Object_Detection.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://arxiv.org/abs/2209.14435" class="text-decoration-none" target="_blank" rel="noopener noreferrer">Out-of-Distribution Detection for LiDAR-based 3D Object Detection</a>
@@ -287,7 +301,7 @@
             <!-- end -->             
             <!-- start -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2022_LiDAR-MIMO--_Efficient_Uncertainty_Estimation_for_LiDAR-based_3D_Object_Detection.png" alt="Paper Image" >
+              <img src="publications/2022_LiDAR-MIMO--_Efficient_Uncertainty_Estimation_for_LiDAR-based_3D_Object_Detection.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://ieeexplore.ieee.org/document/9827244" class="text-decoration-none" target="_blank" rel="noopener noreferrer">LiDAR-MIMO: Efficient Uncertainty Estimation for LiDAR-based 3D Object Detection</a>
@@ -306,7 +320,7 @@
             <!-- end -->
             <!-- start -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2022_The_Missing_Link--_Developing_a_Safety_Case_for_Perception_Components_in_Automated_Driving.png" alt="Paper Image" >
+              <img src="publications/2022_The_Missing_Link--_Developing_a_Safety_Case_for_Perception_Components_in_Automated_Driving.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://saemobilus.sae.org/articles/missing-link-developing-a-safety-case-perception-components-automated-driving-2022-01-0818" class="text-decoration-none" target="_blank" rel="noopener noreferrer">The Missing Link: Developing a Safety Case for Perception Components in Automated Driving</a>
@@ -325,7 +339,7 @@
             <!-- end -->
             <!-- start -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2021_XC--_Exploring_Quantitative_Use_Cases_for_Explanations_in_3D_Object_Detection.png" alt="Paper Image" >
+              <img src="publications/2021_XC--_Exploring_Quantitative_Use_Cases_for_Explanations_in_3D_Object_Detection.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://xai4debugging.github.io/files/papers/xc_exploring_quantitative_use_.pdf" class="text-decoration-none" target="_blank" rel="noopener noreferrer">XC: Exploring Quantitative Use Cases for Explanations in 3D Object Detection</a>
@@ -344,7 +358,7 @@
             <!-- end -->
             <!-- start -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2021_Umple--_Model-driven_Development_for_Open_Source_and_Education.png" alt="Paper Image" >
+              <img src="publications/2021_Umple--_Model-driven_Development_for_Open_Source_and_Education.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://www.sciencedirect.com/science/article/pii/S0167642321000587" class="text-decoration-none" target="_blank" rel="noopener noreferrer">Umple: Model-driven Development for Open Source and Education</a>
@@ -363,7 +377,7 @@
             <!-- end -->
             <!-- start -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2021_Non-divergent_Imitation_for_Verification_of_Complex_Learned_Controllers.png" alt="Paper Image" >
+              <img src="publications/2021_Non-divergent_Imitation_for_Verification_of_Complex_Learned_Controllers.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://ieeexplore.ieee.org/document/9533410" class="text-decoration-none" target="_blank" rel="noopener noreferrer">Non-divergent Imitation for Verification of Complex Learned Controllers</a>
@@ -382,7 +396,7 @@
             <!-- end -->
             <!-- start -->
             <div class="list-group-item publication list-group-item-action">
-              <img src="publications/2020_The_Effect_of_Optimization_Methods_on_the_Robustness_of_Out-of-Distribution_Detection_Approaches.png" alt="Paper Image">
+              <img src="publications/2020_The_Effect_of_Optimization_Methods_on_the_Robustness_of_Out-of-Distribution_Detection_Approaches.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://arxiv.org/abs/2006.14584" class="text-decoration-none" target="_blank" rel="noopener noreferrer">The Effect of Optimization Methods on the Robustness of Out-of-Distribution Detection Approaches</a>
@@ -401,7 +415,7 @@
             <!-- end -->
             <!-- start -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2020_Simple_Continual_Learning_Strategies_for_Safer_Classifers.png" alt="Paper Image" >
+              <img src="publications/2020_Simple_Continual_Learning_Strategies_for_Safer_Classifers.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://ceur-ws.org/Vol-2560/paper6.pdf" class="text-decoration-none" target="_blank" rel="noopener noreferrer">Simple Continual Learning Strategies for Safer Classifers</a>
@@ -420,7 +434,7 @@
             <!-- end -->
             <!-- start -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2020_Accelerating_the_Training_of_Convolutional_Neural_Networks_for_Image_Segmentation_with_Deep_Active_Learning.png" alt="Paper Image" >
+              <img src="publications/2020_Accelerating_the_Training_of_Convolutional_Neural_Networks_for_Image_Segmentation_with_Deep_Active_Learning.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://ieeexplore.ieee.org/document/9294260" class="text-decoration-none" target="_blank" rel="noopener noreferrer">Accelerating the Training of Convolutional Neural Networks for Image Segmentation with Deep Active Learn</a>
@@ -439,7 +453,7 @@
             <!-- end -->
             <!-- start -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2020_Improved_Policy_Extraction_via_Online_Q-Value_Distillation.png" alt="Paper Image" >
+              <img src="publications/2020_Improved_Policy_Extraction_via_Online_Q-Value_Distillation.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://ieeexplore.ieee.org/document/9207648" class="text-decoration-none" target="_blank" rel="noopener noreferrer">Improved Policy Extraction via Online Q-Value Distillation</a>
@@ -458,7 +472,7 @@
             <!-- end -->
             <!-- start -->
             <div class="list-group-item publication list-group-item-action">
-              <img src="publications/2019_Detecting_Out-of-Distribution_Inputs_in_Deep_Neural_Networks_Using_an_Early-Layer_Output.png" alt="Paper Image">
+              <img src="publications/2019_Detecting_Out-of-Distribution_Inputs_in_Deep_Neural_Networks_Using_an_Early-Layer_Output.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://arxiv.org/abs/1910.10307" class="text-decoration-none" target="_blank" rel="noopener noreferrer">Detecting Out-of-Distribution Inputs in Deep Neural Networks Using an Early-Layer Output</a>                                                                                                                                
@@ -478,7 +492,7 @@
             <!-- end -->
             <!-- start -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2019_Out-of-distribution_Detection_in_Classifiers_via_Generation.png" alt="Paper Image" >
+              <img src="publications/2019_Out-of-distribution_Detection_in_Classifiers_via_Generation.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://arxiv.org/abs/1910.04241" class="text-decoration-none" target="_blank" rel="noopener noreferrer">Out-of-distribution Detection in Classifiers via Generation</a>
@@ -497,7 +511,7 @@
             <!-- end -->
             <!-- start -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2019_Analysis_of_Confident-Classifiers_for_Out-of-distribution_Detection.png" alt="Paper Image" >
+              <img src="publications/2019_Analysis_of_Confident-Classifiers_for_Out-of-distribution_Detection.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://arxiv.org/abs/1904.12220" class="text-decoration-none" target="_blank" rel="noopener noreferrer">Analysis of Confident-Classifiers for Out-of-distribution Detection</a>
@@ -515,7 +529,7 @@
             </div>
             <!-- end -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2018_Improving_Reconstruction_Autoencoder_Out-of-distribution_Detection_with_Mahalanobis_Distance.png" alt="Paper Image" >
+              <img src="publications/2018_Improving_Reconstruction_Autoencoder_Out-of-distribution_Detection_with_Mahalanobis_Distance.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://arxiv.org/abs/1812.02765" class="text-decoration-none" target="_blank" rel="noopener noreferrer">Improving Reconstruction Autoencoder Out-of-distribution Detection with Mahalanobis Distance</a>
@@ -534,7 +548,7 @@
             <!-- end -->  
             <!-- end -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2018_Calibrating_Uncertainties_in_Object_Localization_Task.png" alt="Paper Image" >
+              <img src="publications/2018_Calibrating_Uncertainties_in_Object_Localization_Task.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://arxiv.org/abs/1811.11210" class="text-decoration-none" target="_blank" rel="noopener noreferrer">Calibrating Uncertainties in Object Localization Task</a>
@@ -553,7 +567,7 @@
             <!-- end -->
             <!-- start -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2018_Collaborative_Software_Design_and_Modeling_in_Open_Source_Systems.png" alt="Paper Image" >
+              <img src="publications/2018_Collaborative_Software_Design_and_Modeling_in_Open_Source_Systems.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://link.springer.com/chapter/10.1007/978-3-030-01042-3_13" class="text-decoration-none" target="_blank" rel="noopener noreferrer">Collaborative Software Design and Modeling in Open Source Systems</a>
@@ -573,7 +587,7 @@
 
             <!-- start -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2016_Merging_Modeling_and_Programming_using_Umple.png" alt="Paper Image" >
+              <img src="publications/2016_Merging_Modeling_and_Programming_using_Umple.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://www.springerprofessional.de/en/merging-modeling-and-programming-using-umple/10816794" class="text-decoration-none" target="_blank" rel="noopener noreferrer">Merging Modeling and Programming using Umple</a>
@@ -593,7 +607,7 @@
 
             <!-- start -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2016_fSysML--_Foundational_Executable_SysML_for_Cyber-Physical_System_Modeling.png" alt="Paper Image" >
+              <img src="publications/2016_fSysML--_Foundational_Executable_SysML_for_Cyber-Physical_System_Modeling.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://gemoc.org/pub/20161004-GEMOC16/GEMOC_2016_paper_3.pdf" class="text-decoration-none" target="_blank" rel="noopener noreferrer">fSysML: Foundational Executable SysML for Cyber-Physical System Modeling</a>
@@ -613,7 +627,7 @@
 
             <!-- start -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2016_The_Role_of_Semiotic_Engineering_in_Software_Engineering.png" alt="Paper Image" >
+              <img src="publications/2016_The_Role_of_Semiotic_Engineering_in_Software_Engineering.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://ieeexplore.ieee.org/document/7809346" class="text-decoration-none" target="_blank" rel="noopener noreferrer">The Role of Semiotic Engineering in Software Engineering</a>
@@ -633,7 +647,7 @@
 
             <!-- start -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2015_Promoting_Traits_into_Model-Driven_Development.png" alt="Paper Image" >
+              <img src="publications/2015_Promoting_Traits_into_Model-Driven_Development.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://link.springer.com/article/10.1007/s10270-015-0505-x" class="text-decoration-none" target="_blank" rel="noopener noreferrer">Promoting Traits into Model-Driven Development</a>
@@ -652,7 +666,7 @@
             <!-- end -->
             <!-- start -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2015_Extended_Traits_for_Model-Driven_Software_Development.png" alt="Paper Image" >
+              <img src="publications/2015_Extended_Traits_for_Model-Driven_Software_Development.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://ceur-ws.org/Vol-1531/paper6.pdf" class="text-decoration-none" target="_blank" rel="noopener noreferrer">Extended Traits for Model-Driven Software Development</a>
@@ -671,7 +685,7 @@
             <!-- end -->
             <!-- start -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2015_Adding_a_Textual_Syntax_to_an_Existing_Graphical_Modeling_Language--_Experience_Report_with_GRL.png" alt="Paper Image" >
+              <img src="publications/2015_Adding_a_Textual_Syntax_to_an_Existing_Graphical_Modeling_Language--_Experience_Report_with_GRL.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://link.springer.com/chapter/10.1007/978-3-319-24912-4_12" class="text-decoration-none" target="_blank" rel="noopener noreferrer">Adding a Textual Syntax to an Existing Graphical Modeling Language: Experience Report with GRL</a>
@@ -691,7 +705,7 @@
 
             <!-- start -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2015_A_Textual_Syntax_with_Tool_Support_for_the_Goal-oriented_Requirement_Language.png" alt="Paper Image" >
+              <img src="publications/2015_A_Textual_Syntax_with_Tool_Support_for_the_Goal-oriented_Requirement_Language.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://ceur-ws.org/Vol-1402/paper6.pdf" class="text-decoration-none" target="_blank" rel="noopener noreferrer">A Textual Syntax with Tool Support for the Goal-oriented Requirement Language</a>
@@ -711,7 +725,7 @@
 
             <!-- start -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2016_fSysML--_Foundational_Executable_SysML_for_Cyber-Physical_System_Modeling.png" alt="Paper Image" >
+              <img src="publications/2016_fSysML--_Foundational_Executable_SysML_for_Cyber-Physical_System_Modeling.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://www.transformation-tool-contest.eu/2014/solutions/fixml/ttc2014_submission_15.pdf" class="text-decoration-none" target="_blank" rel="noopener noreferrer">A Model-Driven Solution for Financial Data Representation Expressed in FIXML</a>
@@ -731,7 +745,7 @@
 
             <!-- start -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2011_Testing_Aspect-Oriented_Programs_with_UML_Activity_Diagrams.png" alt="Paper Image" >
+              <img src="publications/2011_Testing_Aspect-Oriented_Programs_with_UML_Activity_Diagrams.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="https://www.ijcaonline.org/archives/volume33/number8/4038-5783/" class="text-decoration-none" target="_blank" rel="noopener noreferrer">Testing Aspect-Oriented Programs with UML Activity Diagrams</a>
@@ -751,7 +765,7 @@
 
             <!-- start -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2011_Aspect-Oriented_Software_Development_Versus_Other_Development_Methods.png" alt="Paper Image" >
+              <img src="publications/2011_Aspect-Oriented_Software_Development_Versus_Other_Development_Methods.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   
@@ -772,7 +786,7 @@
 
             <!-- start -->
             <div class="list-group-item list-group-item-action publication">
-              <img src="publications/2010_A_Method_Based_on_Petri_Net_for_Identification_of_Aspects.png" alt="Paper Image" >
+              <img src="publications/2010_A_Method_Based_on_Petri_Net_for_Identification_of_Aspects.png" alt="Paper Image" class="publication-image">
               <div>
                 <p class="mb-1">
                   <a href="publications/2010_A_Method_Based_on_Petri_Net_for_Identification_of_Aspects.pdf" class="text-decoration-none" target="_blank" rel="noopener noreferrer">A Method Based on Petri Net for Identification of Aspects</a>
